@@ -57,6 +57,7 @@
 
     <li><a id="greyfonts" href="http://127.0.0.1:8000/admin">Admin</a></li>
     <hr>
+<li><a id="greyfonts" href="/cspapp/projects">Projects list</a></li>
     <li><a id="greyfonts" href="/cspapp/users">Users list</a></li>
 </ul>
 </nav>
@@ -75,10 +76,10 @@
                 <th>Last login</th>
                 </tr>
 
-                <td style="width:150px">{{ user.username }}</td>
-                <td style="width:200px">{{ user.email }}</td>
-                <td style="width:200px"; align="center">{{ user.date_joined }}</td>
-                <td style="width:200px"; align="center">{{ user.last_login }}</td>
+                <td style="width:150px">{{ profile.username }}</td>
+                <td style="width:200px">{{ profile.email }}</td>
+                <td style="width:200px"; align="center">{{ profile.date_joined }}</td>
+                <td style="width:200px"; align="center">{{ profile.last_login }}</td>
                 </table>
      <br />
 

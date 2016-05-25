@@ -91,8 +91,26 @@
     <script>
     function myFunction(USERNAME) {
 
-            window.location="http://127.0.0.1:8000/profile/"+USERNAME;
+        if (USERNAME == "admin")
+         window.location="http://127.0.0.1:8000/profile/1";
 
+        if (USERNAME == "user1")
+         window.location="http://127.0.0.1:8000/profile/2/";
+
+        if (USERNAME == "user2")
+         window.location="http://127.0.0.1:8000/profile/3/";
+
+        if (USERNAME == "moderator")
+         window.location="http://127.0.0.1:8000/profile/4/";
+
+        if (USERNAME == "troll_student_XD")
+         window.location="http://127.0.0.1:8000/profile/5/";
+
+        if (USERNAME == "qwer")
+         window.location="http://127.0.0.1:8000/profile/6/";
+
+          if (USERNAME == "josep555")
+         window.location="http://127.0.0.1:8000/profile/6/";
 
     }
     </script>
