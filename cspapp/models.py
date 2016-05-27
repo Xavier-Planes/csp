@@ -101,3 +101,14 @@ class Answer(models.Model):
 class ActivityAnswer(Answer):
     project = models.ForeignKey(Activity)
     creator = models.ForeignKey(User, default=1)
+
+
+class Request(models.Model):
+    body = models.TextField()
+    description = models.TextField()
+
+
+class UserRequest(Request):
+    creator = models.ForeignKey(User, default=1)
+    date = models.DateField(default=date.today)
+
