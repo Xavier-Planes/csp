@@ -77,7 +77,7 @@
         width: 12%;
         background-color: #0489B1;
          /* border: 1px solid #555; */
-        height: 100%; /* Full height */
+        height:100%; /* Full height */
         position: fixed; /* Make it stick, even on scroll */
         overflow: auto; /* Enable scrolling if the sidenav has too much content */
  }
@@ -89,7 +89,7 @@
                 width: 200px;
                 background-color: #F1F1F1;
                 /* border: 1px solid #555; */
-                 /* height: 100%; /* Full height */
+                height: 50%; /* Full height */
                 position: fixed; /* Make it stick, even on scroll */
                 overflow: auto; /* Enable scrolling if the sidenav has too much content */
  }
